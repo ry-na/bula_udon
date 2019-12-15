@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bula!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script>
+    $.get(`https://script.google.com/macros/s/AKfycbzMTMnJlks-ESlCVqmtHsZWLsxvMgdF7HsLsYB2lyhMzLnj9SJ5/exec`)
+        .done(function(data) {
+            $('.talk_theme').text(data)
+        })
+</script>
+<body>
+        <div class="participant_name">Ryo Natori</div>
+        <div class="talk_theme"></div>
+        <div class="group_area">
+            <div class="group_num">3</div>
+                <div class="group_member">
+                        <div class="group_member_name">Ryo Natori</div>
+                        <div class="group_member_name">Yuji.T</div>
+                        <div class="group_member_name">Sim Chhay</div>
+                        <div class="group_member_name">Panha Chhean</div>
+                        <div class="group_member_name">Tan Somnang</div>
+                </div>
+        </div>
+</body>
