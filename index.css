@@ -13,6 +13,7 @@ body {
 .talk_theme {
   font-size: 26px;
   font-weight: bold;
+  margin-top: 52px;
 
 }
 
@@ -43,4 +44,13 @@ body {
 .group_member_name {
   border-bottom: 2px solid #ffe8d6;
   margin: 5px 50px;
+}
+
+.bsc_logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
 }
