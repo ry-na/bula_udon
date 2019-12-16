@@ -9,6 +9,7 @@ function load() {
   ).done(function(groups) {
     $(".group_area").empty();
     for (let [i, members] of groups.entries()) {
+      if (members[i] === "") return
       $(".group_area").append(`<div class="group_num">GROUP${i + 1}</div>`);
       let memberDom = "";
       for (let member of members) {
