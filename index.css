@@ -1,10 +1,46 @@
-body div {
+body {
   text-align: center;
-  font-size: 36px;
   margin-bottom: 24px;
 }
 
 .group_member_name {
-    font-size: 18px;
-    margin-bottom: 12px;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+
+
+.talk_theme {
+  font-size: 26px;
+  font-weight: bold;
+
+}
+
+.reloadButton {
+  padding: 5px 10px;
+  border: 1px solid #ff971d;
+  display: inline-block;
+  margin: 20px 0;
+  background-color: #ffe8d6;
+  border-radius: 10px;
+}
+
+
+
+.group_num {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.group_member {
+  border: #f9f6f7 3px solid;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.group_member_name {
+  border-bottom: 2px solid #ffe8d6;
+  margin: 5px 50px;
 }
