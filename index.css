@@ -54,3 +54,9 @@ body {
     left: 4px;
     top: 4px;
 }
+
+.selectedName {
+    background-color: #ffe8d6;
+    font-size: 28px;
+    font-weight: bold;
+}

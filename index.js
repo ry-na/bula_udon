@@ -17,6 +17,13 @@ function load() {
       }
       $(".group_area").append(`<div class="group_member">${memberDom}</div>`);
     }
+
   });
 }
-load();
+$(function(){
+    load();
+    $(document).on("click", ".group_member_name", function() {
+        $(".selectedName").removeClass('selectedName');
+        $(this).addClass('selectedName');
+    })
+})
